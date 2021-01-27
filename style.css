@@ -1,0 +1,104 @@
+body {
+    background-image: url('src/img/background.gif');
+}
+
+
+
+
+
+
+/*Cabecera*/
+
+
+header{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+
+header h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30pt;
+    color: white;
+}
+
+
+header nav a + a{
+    margin-left: 15px;
+}
+
+.selected-nav{
+    color: black;
+    background-color: darkorange;
+    font-weight: bold;
+}
+
+header nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 132, 155, 0.637);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.navFix {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 25px;
+    height: 50px;
+    background-color: black ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .navFix + .content {
+    padding-top: 60px;
+  }
+
+
+
+
+
+/*Contenido de la página*/
+
+
+.all-page {
+    margin-top: 200px;
+}
+
+
+
+.all-page .description{
+    background-color: rgba(0, 3, 27, 0.719);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.all-page .description img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    align-self: center;
+    height: 540px;
+    width: 960px;
+    border-radius: 100px;
+}
